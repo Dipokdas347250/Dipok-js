@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+   padding: 250px 0;
+   background-color: black;
+  
+}
+.main{
+    text-align: center;
+    /* background-color: black; */
+    /* height: 500px; */
+}
+.type{
+    position: relative;
+}
+
+
+.type::after{
+    position: absolute;
+    content: '';
+   right: -5px;
+    top: -20px;
+    height: 100px;
+    width: 5px;
+    background-color: #fff;
+   
+}
+.type{
+    height: 200px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 200px;
+}
+.name{
+ 
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
